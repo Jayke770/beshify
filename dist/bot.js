@@ -19,3 +19,4 @@ const BOT_TOKEN = (_b = process === null || process === void 0 ? void 0 : proces
 const bot = new grammy_1.Bot(BOT_TOKEN);
 bot.on("message", (ctx) => __awaiter(void 0, void 0, void 0, function* () { var _c; return yield ctx.reply(((_c = ctx === null || ctx === void 0 ? void 0 : ctx.message.text) !== null && _c !== void 0 ? _c : "").replace(/\s/g, "🤸")); }));
 (0, runner_1.run)(bot);
+console.log("⚡ Bot Started");
